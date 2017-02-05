@@ -1,5 +1,6 @@
 module Tuner
-
-# package code goes here
-
-end # module
+import Plots
+import PortAudio
+include("FrequencyView.jl")
+export FrequencyView
+end
